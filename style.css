@@ -1,0 +1,579 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Raleway", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.menu {
+  display: none;
+}
+.lists ul {
+    display: flex;
+    padding: 50px 70px;
+    justify-content: space-between;
+    gap: 40px;
+}
+.lists ul a {
+    color: white;
+    font-size: 20px;
+}
+.logo {
+    margin-left: 40px;
+}
+.cat{
+    background-color: #e5e5f7;
+    opacity: 0.7;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #6b6d9a55, #6b6d9a );
+    font-size: 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 250px;
+    height: 70px;
+    color:rgb(15, 39, 90);
+}
+.home{
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    height: 90vh;
+    
+}
+img {
+    margin-left: 400px;
+    width: 500px;
+   
+}
+.homee{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homee h1 {
+    font-size: 50px;
+    color: white;
+}
+.btns a {
+    border: 1px solid black;
+    color: white;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    margin-top: 20px;
+}
+.btns a:hover{
+    padding: 10px 30px;
+    background-color: beige;
+    color: black;
+
+}
+.homee img {
+    width: 500px;
+    margin-left: 50px;
+}
+.hu__hu__ { animation: hu__hu__ infinite 2s ease-in-out }
+@keyframes hu__hu__ {
+    50% { transform: translateY(30px) }
+}
+.lists a:hover{
+    padding: 10px 30px;
+    background-color: beige;
+    color: black;
+
+}
+.lists a {
+   
+    color: white;
+    padding: 10px 20px ;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    margin-top: 15px;
+}
+.product {
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.produc{
+    margin-top: 20px;
+   
+    width: 300px;
+    height: 400px;
+}
+.top {
+    background-image: url(./fashion-shoes-sneakers_1203-7529-removebg-preview.png);
+    height: 60%;
+    background-position: center;
+    background-size: cover;
+}
+.botom{
+    margin-top: 10px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.price {
+    display: flex;
+    
+}
+.nice {
+    margin-left: 40px;
+}
+.pro {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.botom a {
+ background-color: violet;
+ color: black;
+ padding: 10px 20px ;
+ border-radius: 10px;
+ transition: 0.5s ease-in-out;
+ margin-top: 15px;
+ width: 100px;
+
+}
+.botom a:hover{
+    padding: 10px 30px;
+    background-color: violet;
+    
+    color: black;
+
+}
+.top2 {
+    background-image: url(./téléchargement\ \(5\).jfif);
+    height: 65%;
+    background-position: center;
+    background-size: cover;
+}
+.top3 {
+    background-image: url(./téléchargement\ \(4\).jfif);
+    height: 65%;
+    background-position: center;
+    background-size: cover;
+}
+.top4 {
+    background-image: url(./téléchargement\ \(3\).jfif);
+    height: 60%;
+    background-position: center;
+    background-size: cover;
+}
+.top5 {
+    background-image: url(./téléchargement\ \(2\).jfif);
+    height: 60%;
+    background-position: center;
+    background-size: cover;
+}
+.top6 {
+    background-image: url(./téléchargement\ \(1\).jfif);
+    height: 60%;
+    background-position: center;
+    background-size: cover;
+}
+.top7 {
+    background-image: url(./one-black-sneaker-shoe-isolated-white_93675-131266.avif);
+    height: 60%;
+    background-position: center;
+    background-size: cover;
+}
+.top8 {
+    background-image: url(./nike-air-force-1-mockup_1332-60603-removebg-preview.png);
+    height: 60%;
+    background-position: center;
+    background-size: cover;
+}
+.typee{
+    padding: 30px 40px;
+}
+.type {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    max-width: 400px;
+} 
+.contact{
+    padding: 30px 40px;
+}
+.card {
+    width: 420px;
+    display: flex;
+    height: 200px;
+   margin-left: 40px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./african-man_1303-4410.avif) ;
+    border-radius: 8px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    cursor: pointer;
+  }
+  
+  .card-content {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+  
+  .card-content .card-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: inherit;
+    text-transform: uppercase;
+  }
+  
+  .card-content .card-para {
+    color: inherit;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  
+  .card:hover {
+    transform: rotateY(10deg) rotateX(10deg) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    z-index: 1;
+  }
+  
+  .card:hover:before {
+    transform: translateX(-100%);
+  }
+  
+  .card:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    z-index: 1;
+  }
+  
+  .card:hover:after {
+    transform: translateX(100%);
+  }
+  .card2 {
+    width: 420px;
+    display: flex;
+    height: 200px;
+   margin-left: 40px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./sports-tools-balls-shoes-ground_1028938-102670.avif) ;
+    border-radius: 8px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    cursor: pointer;
+  }
+  
+  .card-content2 {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+  
+  .card-content2 .card-title2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: inherit;
+    text-transform: uppercase;
+  }
+  
+  .card-content2 .card-para2 {
+    color: inherit;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  
+  .card2:hover {
+    transform: rotateY(10deg) rotateX(10deg) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    z-index: 1;
+  }
+  
+  .card:hover:before {
+    transform: translateX(-100%);
+  }
+  
+  .card:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    z-index: 1;
+  }
+  .display {
+    display: flex;
+  }
+  
+  .card:hover:after {
+    transform: translateX(100%);
+  }
+  .card3 {
+    width: 420px;
+    display: flex;
+    height: 200px;
+   margin-left: 40px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./beautiful-amazing-brunette-woman-with-long-wavy-hairstyle-spring-fall-stylish-urban-outfit-walking-street-red-lips-slim-body-street-fashion-concept_273443-1169.avif) ;
+    border-radius: 8px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    cursor: pointer;
+  }
+  
+  .card-content {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+  
+  .card-content .card-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: inherit;
+    text-transform: uppercase;
+  }
+  
+  .card-content .card-para {
+    color: inherit;
+    opacity: 0.8;
+    font-size: 14px;
+  }
+  
+  .card3:hover {
+    transform: rotateY(10deg) rotateX(10deg) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    z-index: 1;
+  }
+  
+  .card3:hover:before {
+    transform: translateX(-100%);
+  }
+  
+  .card:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    z-index: 1;
+  }
+  .contact {
+    color: white;
+    margin-left: 550px;
+  }
+  .card:hover:after {
+    transform: translateX(100%);
+  }
+  .fotter {
+    background: rgb(64,68,67);
+    background: linear-gradient(0deg, rgba(64,68,67,1) 0%, rgba(0,0,0,1) 100%);
+height: 80vh;
+  }
+
+.card4 {
+  max-width: fit-content;
+  margin-left: 620px;
+  margin-top: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 1rem;
+  backdrop-filter: blur(15px);
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.192),
+    inset 0 0 5px rgba(255, 255, 255, 0.274), 0 5px 5px rgba(0, 0, 0, 0.164);
+  transition: 0.5s;
+}
+
+.card4:hover {
+  animation: ease-out 5s;
+  background: rgba(173, 173, 173, 0.05);
+}
+
+.card4 ul {
+  padding: 1rem;
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.card4 ul li {
+  cursor: pointer;
+}
+
+.svg {
+  transition: all 0.3s;
+  /* if you find some problems change w - h : 30px*/
+  padding: 1rem;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  color: rgb(255, 174, 0);
+  fill: currentColor;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.3),
+    inset 0 0 5px rgba(255, 255, 255, 0.5), 0 5px 5px rgba(0, 0, 0, 0.164);
+}
+
+.text {
+  opacity: 0;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all 0.3s;
+  color: rgb(255, 174, 0);
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  z-index: 9999;
+  box-shadow: -5px 0 1px rgba(153, 153, 153, 0.2),
+    -10px 0 1px rgba(153, 153, 153, 0.2),
+    inset 0 0 20px rgba(255, 255, 255, 0.3),
+    inset 0 0 5px rgba(255, 255, 255, 0.5), 0 5px 5px rgba(0, 0, 0, 0.082);
+}
+
+
+.iso-pro {
+  transition: 0.5s;
+}
+.iso-pro:hover a > .svg {
+  transform: translate(15px, -15px);
+  border-radius: 100%;
+}
+
+.iso-pro:hover .text {
+  opacity: 1;
+  transform: translate(25px, -2px) skew(-5deg);
+}
+
+.iso-pro:hover .svg {
+  transform: translate(5px, -5px);
+}
+
+.iso-pro span {
+  opacity: 0;
+  position: absolute;
+  color: #1877f2;
+  border-color: #1877f2;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.3),
+    inset 0 0 5px rgba(255, 255, 255, 0.5), 0 5px 5px rgba(0, 0, 0, 0.164);
+  border-radius: 50%;
+  transition: all 0.3s;
+  height: 60px;
+  width: 60px;
+}
+
+.iso-pro:hover span {
+  opacity: 1;
+}
+
+.iso-pro:hover span:nth-child(1) {
+  opacity: 0.2;
+}
+
+.iso-pro:hover span:nth-child(2) {
+  opacity: 0.4;
+  transform: translate(5px, -5px);
+}
+
+.iso-pro:hover span:nth-child(3) {
+  opacity: 0.6;
+  transform: translate(10px, -10px);
+}
+
+  
+  
